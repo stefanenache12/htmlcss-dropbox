@@ -12,6 +12,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
 .white-button {
     border: none;
     background-color: white;
@@ -76,9 +81,59 @@ li {
 
 .header-bottom {
     background-color: #B4D0E7;
-    height: 500px;
 }
 
+.header-bottom > .container {
+    position: relative;
+    top: 70px;
+
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 40px;
+    
+}
+
+.my-row {
+    display:flex;
+
+}
+
+.col-left {
+    width: 30%;
+    
+}
+
+.col-left p {
+    font-size: 0.8em;
+    margin-bottom: 30px;
+}
+
+.col-left button {
+    color: white;
+    padding: 10px 5px;
+
+}
+
+.col-left h5 {
+    font-weight: 400;
+    font-size: 0.75em;
+    margin-top: 30px;
+}
+
+.col-left .arrow {
+    font-size: 2.5em;
+    margin-top: 40px;
+}
+
+.col-right {
+    width: 70%;
+}
+
+.col-right img {
+    width: 100%;
+}
 
 
 
