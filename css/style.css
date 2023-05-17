@@ -36,6 +36,7 @@ body {
     transition: 0.6s;
 }
 
+/*BUTTON EXTRA HOVER*/
 .blu-button:hover {
     border-radius: 10px;
 }
@@ -184,7 +185,7 @@ h2 {
     color: #0061FF;
 }
 
-.my-col {
+main > :first-child .my-col {
     width: 30%;
     border: 1px solid rgb(0, 0, 0, 0.3);
     align-items: stretch;
@@ -195,7 +196,7 @@ main > :first-child .my-row > :nth-child(2) {
     
 }
 
-main > section .my-row .my-col > :first-child {
+main > :first-child .my-row .my-col > :first-child {
     border-bottom: 1px solid rgb(0, 0, 0, 0.3);
     text-align: center;
     font-weight: 400;
@@ -253,7 +254,7 @@ main > section .my-row .my-col > :first-child {
 
 main > :nth-child(2) .container-small {
     margin-top: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     border: 1px solid rgb(0, 0, 0, 0.3);
     
 }
@@ -300,11 +301,11 @@ main > :nth-child(2) .col-right > .blu-button {
 /*THIRD SECTION*/
 
 main > :nth-child(3) > :first-child{
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 main > :nth-child(3) .col-left{
-    width: 55%;
+    width: 60%;
 }
 
 main > :nth-child(3) .col-left > img {
@@ -312,7 +313,7 @@ main > :nth-child(3) .col-left > img {
 }
 
 main > :nth-child(3) .col-right{
-    width: 45%;
+    width: 40%;
 }
 
 main > :nth-child(3) .col-right .info-col-right{
@@ -336,14 +337,50 @@ main > :nth-child(3) .col-right .info-col-right > .blu-button {
 main > :nth-child(4) .my-row {
     margin-top: 40px;
     margin-bottom: 100px;
+    align-items: stretch;
 }
 
 main > :nth-child(4) .my-col {
-    border: 1px solid black;
-    height: 300px;
+    width: 30%;
+    margin-bottom: 40px;
 }
 
+main > :nth-child(4) .my-row > :nth-of-type(3n+2) {
+    margin: 0 5%;
+    margin-bottom: 40px;
+}
 
+main > :nth-child(4) .my-col img {
+    width: 100%;
+}
+
+main > :nth-child(4) .my-col h3 {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+main > :nth-child(4) .my-col h5 {
+    font-size: 0.8em;
+}
+
+/*FOURTH SECTION EXTRA HOVER*/
+
+main > :nth-child(4) .my-col:hover{
+    border: 1px solid rgb(0, 0, 0, 0.5);
+}
+
+/*FIFTH SECTION*/
+
+main > :nth-child(5) > .container-small > h2 {
+    margin-bottom: 40px;
+    padding-right: 200px;
+
+}
+
+main > :nth-child(5) > .container-small > a {
+    color: #0061FF;
+    font-size: 0.8em;
+}
 
 
 /*DEBUG*/
