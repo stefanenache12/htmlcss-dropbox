@@ -388,10 +388,6 @@ main > :nth-child(5) > .container-small {
 
 /*SIXTH SECTION*/
 
-main > :nth-child(6) {
-    margin-bottom: 100px;
-}
-
 main > :nth-child(6) .square-col {
     width: calc(100% / 3);
     height: calc((100vw / 3) - 5.6px);
@@ -476,6 +472,37 @@ main > :nth-child(6) .square-col {
     margin: 0px 40px 20px 40px;
 }
 
+
+/*SEVENTH SECTION*/
+
+main > :nth-child(7) {
+    background-color: #B4D0E7;
+    margin-bottom: 100px;
+    
+}
+
+main > :nth-child(7) .container-small {
+    display: flex;
+}
+
+main > :nth-child(7) .container-small .col-left {
+    width: 60%;
+}
+
+main > :nth-child(7) .container-small .col-right {
+    width: 40%;
+}
+
+main > :nth-child(7) .container-small .col-left h2 {
+    padding: 80px 0px;
+    padding-right: 50px;
+   
+}
+
+main > :nth-child(7) .container-small .col-right button {
+    padding: 10px 40px;
+    margin-top: 90px;
+}
 
 
 
