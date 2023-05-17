@@ -40,6 +40,15 @@ body {
     border-radius: 10px;
 }
 
+h5 {
+    font-weight: 400;
+}
+
+.my-row {
+    display:flex;
+    flex-wrap: wrap;
+}
+
 
 /*HEADER*/
 
@@ -116,10 +125,7 @@ h1 {
     
 }
 
-.my-row {
-    display:flex;
 
-}
 
 .col-left {
     width: 30%;
@@ -184,7 +190,7 @@ h2 {
     align-items: stretch;
 }
 
-main > section .my-row > :nth-child(2) {
+main > :first-child .my-row > :nth-child(2) {
     margin: 0 5%;
     
 }
@@ -196,6 +202,8 @@ main > section .my-row .my-col > :first-child {
     padding: 5px 0;
 }
 
+
+/* FIRST SECTION PRICE PLAN*/
 .info-price-plan {
     padding: 0 20px;
 }
@@ -241,14 +249,105 @@ main > section .my-row .my-col > :first-child {
     margin-bottom: 40px;
 }
 
+/*SECOND SECTION*/
+
+main > :nth-child(2) .container-small {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    
+}
+
+main > :nth-child(2) .container-small > h5{
+    border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+    text-align: center;
+    font-weight: 400;
+    padding: 8px 0px;
+}
+
+main > :nth-child(2) .col-left > .info-col-left {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+main > :nth-child(2) .col-left > .info-col-left > h3{
+    padding-bottom: 10px;
+}
+
+main > :nth-child(2) .col-left > .info-col-left > h4{
+    padding-bottom: 10px;
+    font-size: 0.8em;
+}
+
+main > :nth-child(2) .col-left > .info-col-left > h5{
+    padding-bottom: 20px;
+}
+
+main > :nth-child(2) .col-left {
+    width: 70%;
+}
+
+main > :nth-child(2) .col-right {
+    width: 30%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+main > :nth-child(2) .col-right > .blu-button {
+    padding: 10px 30px;
+}
+
+/*THIRD SECTION*/
+
+main > :nth-child(3) > :first-child{
+    margin-bottom: 80px;
+}
+
+main > :nth-child(3) .col-left{
+    width: 55%;
+}
+
+main > :nth-child(3) .col-left > img {
+    width: 100%;
+}
+
+main > :nth-child(3) .col-right{
+    width: 45%;
+}
+
+main > :nth-child(3) .col-right .info-col-right{
+    padding: 50px 40px;
+}
+
+main > :nth-child(3) .col-right .info-col-right > h3,h5{
+    padding-bottom: 15px;
+}
+
+main > :nth-child(3) .col-right .info-col-right > .blu-button {
+    background-color: white;
+    color: rgb(0, 0, 0, 0.7);
+    border: 1px solid rgb(0, 0, 0, 0.7);
+    padding: 10px 15px;
+}
+
+
+/*FOURT SECTION*/
+
+main > :nth-child(4) .my-row {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+main > :nth-child(4) .my-col {
+    border: 1px solid black;
+    height: 300px;
+}
+
+
 
 
 /*DEBUG*/
 
-.section {
-    background-color: aquamarine;
-    margin-top: 50px;
-    height: 200px;
-}
+
 
 
