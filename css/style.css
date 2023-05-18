@@ -114,6 +114,10 @@ li {
     margin-bottom: 120px;
 }
 
+.header-bottom a {
+    color: black;
+}
+
 .header-bottom > .container {
     position: relative;
     top: 70px;
@@ -205,6 +209,28 @@ main > :first-child .my-row .my-col > :first-child {
 
 
 /* FIRST SECTION PRICE PLAN*/
+
+
+.info-price-plan ul li span {
+    border-bottom: none;
+    display: block;
+}
+
+.info-price-plan ul li {
+    display: block;
+    padding: 5px 0px;
+}
+
+.info-price-plan ul li h5 {
+    font-size: 0.7em;
+}
+
+.info-price-plan ul {
+    margin-left: 0px;
+    padding: 0 20px;
+}
+
+
 .info-price-plan {
     padding: 0 20px;
 }
@@ -219,7 +245,7 @@ main > :first-child .my-row .my-col > :first-child {
     padding-bottom: 10px;
 }
 
-.info-price-plan :nth-child(3){
+.info-price-plan > :nth-child(3){
     font-weight: 400;
     color: rgb(0, 0, 0, 0.5);
     padding-bottom: 40px;
@@ -415,7 +441,6 @@ main > :nth-child(6) .square-col {
 
 .partener-1 {
     background-color: #A2D39B;
-    border: 15px solid #D1E9CD;
 }
 
 .partener-2 {
@@ -452,6 +477,7 @@ main > :nth-child(6) .square-col {
 
 .central-partener {
     display: inline-block;
+    pointer-events: none;
 }
 
 .central-partener img {
@@ -472,12 +498,18 @@ main > :nth-child(6) .square-col {
     margin: 0px 40px 20px 40px;
 }
 
+/*EXTRA SIXTH SECTION*/
+
+.square-col > :hover {
+    border: 15px solid #D1E9CD;
+}
+
 
 /*SEVENTH SECTION*/
 
 main > :nth-child(7) {
     background-color: #B4D0E7;
-    margin-bottom: 100px;
+    margin-bottom: 140px;
     
 }
 
@@ -496,6 +528,7 @@ main > :nth-child(7) .container-small .col-right {
 main > :nth-child(7) .container-small .col-left h2 {
     padding: 80px 0px;
     padding-right: 50px;
+    color: #61082B;
    
 }
 
@@ -505,9 +538,70 @@ main > :nth-child(7) .container-small .col-right button {
 }
 
 
+/*FAQ SECTION*/
 
-/*DEBUG*/
+.faq-icon {
+    text-align: end;
+    padding-left: 100px;
+}
 
 
+hr {
+    margin: 30px 0px;
+    opacity: 0.5;
+}
+
+main > :nth-child(8) .container-small {
+    margin-bottom: 100px;
+}
+main > :nth-child(8) .container-small h2 {
+    margin-bottom: 40px;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-color: black;
+}
+
+.col-footer-top {
+    width: calc((100% / 5) - (80px / 5));
+}
+
+footer .my-row > *:not(:last-child){
+    margin-right: 20px;
+}
+
+.col-footer-top li {
+    display: block;
+    color: white;
+    padding:0px 0px 10px 0px;
+    font-size: small;
+    
+}
+
+.col-footer-top ul li h4 {
+    font-size: medium;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    
+}
+
+.col-footer-top ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.footer-bottom h3 {
+    display: inline-block;
+    font-size: small;
+    color: rgb(255, 255, 255, 0.6);
+    border-top: 1px solid  rgb(255, 255, 255, 0.6);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+}
 
 
