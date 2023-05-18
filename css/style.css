@@ -8,6 +8,10 @@
 
 /*GENERAL*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -37,6 +41,7 @@ body {
 }
 
 /*BUTTON EXTRA HOVER*/
+
 .blu-button:hover {
     border-radius: 10px;
 }
@@ -54,6 +59,29 @@ h5 {
 /*HEADER*/
 
 /*HEADER TOP */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown-content p {
+    padding: 10px 0;
+    text-align: left;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 .header-top {
     display: flex;
@@ -129,8 +157,6 @@ h1 {
     margin-bottom: 40px;
     
 }
-
-
 
 .col-left {
     width: 30%;
@@ -547,8 +573,11 @@ main > :nth-child(7) .container-small .col-right button {
 
 
 hr {
-    margin: 30px 0px;
     opacity: 0.5;
+}
+
+.faq h4 {
+    padding: 20px 0;
 }
 
 main > :nth-child(8) .container-small {
@@ -557,6 +586,26 @@ main > :nth-child(8) .container-small {
 main > :nth-child(8) .container-small h2 {
     margin-bottom: 40px;
 }
+
+
+/*FAQ BONUS*/
+
+
+.faq-answer {
+    height: 0;
+    overflow: hidden;
+    padding-top: 10px;
+    transition: height 0.5s;
+}
+.faq h4:hover .faq-answer {
+    height: 3em;
+    
+}
+
+.faq h4:hover {
+    background-color: #B4D0E7;
+}
+
 
 
 /*FOOTER*/
@@ -603,5 +652,7 @@ footer .my-row > *:not(:last-child){
     padding-bottom: 40px;
     margin-top: 40px;
 }
+
+
 
 
