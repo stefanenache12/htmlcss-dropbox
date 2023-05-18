@@ -58,7 +58,9 @@ h5 {
 
 /*HEADER*/
 
-/*HEADER TOP */
+
+
+/*HEADER TOP BONUS*/
 
 .dropdown {
     position: relative;
@@ -81,6 +83,18 @@ h5 {
   
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+/*HEADER TOP */
+
+.header-top-right .white-button:hover {
+    border-radius: 10px;
+}
+
+.header-top-right .white-button {
+    padding: 4px 9px;
+    border: 1px solid black;
+    transition: 0.6s;
 }
 
 .header-top {

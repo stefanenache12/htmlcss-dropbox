@@ -1,0 +1,126 @@
+/*RESET*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*GENERAL*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*MAIN LOGIN*/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-container {
+    width: 25%;
+    margin: 100px 0px;
+    text-align: center;
+    
+}
+
+.title-login {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-login h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+    
+}
+
+.title-login a {
+    color: #0061FF;
+    line-height: 38px;
+    
+}
+
+.login-container  .white-button {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: all 0.6s;
+
+}
+
+.google-login:hover {
+    background: linear-gradient(90deg, rgba(244,5,5,1) 13%, rgba(232,255,0,1) 31%, rgba(9,255,0,1) 58%, rgba(0,5,255,1) 89%);;
+}
+
+.apple-login:hover {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 6%, rgba(147,147,147,1) 54%, rgba(246,246,246,1) 87%);
+}
+
+.login-container .blu-button {
+    width: 100%;
+    padding: 20px 0;
+    margin: 40px 0;
+}
+
+.white-button span {
+    font-size: 1.1em;
+}
+
+.blu-button span {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.email-form {
+    width: 100%;
+    padding: 10px 0;
+}
+
+h4 {
+    position: relative;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+h4::after{
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 0.5px; 
+    background:rgba(0, 0, 0, 0.3);  
+    top: 55%;
+    left: 0;
+    
+}
+
+h4::before{
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 0.5px; 
+    background:rgba(0, 0, 0, 0.3);  
+    top: 55%;
+    right: 0;
+    
+}
+
+h6{
+    text-align: left;
+    font-weight: 400;
+}
+
+/*DEBUG*/
+
